@@ -1,6 +1,6 @@
 
-const API_BASE_URL = 'http://localhost:3300/api';
-const API_BASE=`http://localhost:3300`
+const API_BASE_URL = 'https://ibarberback.azurewebsites.net/api';
+const API_BASE=`https://ibarberback.azurewebsites.net/`
 export const API_URLS = {
   BARBERIA: `${API_BASE_URL}/barberia`,//se necesita
   USUARIO: `${API_BASE_URL}/usuario`,//autenticada,
