@@ -10,7 +10,7 @@ lerna-debug.log*
 yarn.lock
 .vite
 node_modules
-dist
+
 dist-ssr
 *.local
 
