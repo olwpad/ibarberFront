@@ -1,0 +1,18 @@
+@import url("./Estilos/carousel.css");
+@import url("./Estilos/crearBarberia.css");
+@import url("./Estilos/Footer.css");
+@import url("./Estilos/header.css");
+@import url("./Estilos/info.css");
+@import url("./Estilos/login.css");
+@import url("./Estilos/perfil.css");
+@import url("./Estilos/recuperar.css");
+@import url("./Estilos/registrar.css");
+@import url("./Estilos/formCita.css");
+@import url("./Estilos/modalcontraseña.css");
+@import url("./Estilos/modalcrearbarbero.css");
+@import url("./Estilos/edit.css");
+@import url("./Estilos/MultipleItems.css");
+html{
+    height: 100vh;
+    width: 100vw;
+}

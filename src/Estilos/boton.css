@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #655CC9;
+  --secondary-color: #157347;
+  --primary-hover-color: #574faf;
+}
+
+/* LogoutButton.css */
+
+.boton-logout {
+  background-color: #655cc9;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton-logout:hover {
+  background-color: #574eb8;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.button-link {
+  border: none;
+  cursor: pointer;
+  color: rgb(9, 100, 210);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button-purple {
+  background-color: var(--primary-color);
+}
+
+.button-green {
+ background-color: var(--secondary-color);
+}
+
+.button-red {
+  background-color: #E32636;
+}
+
+.goback {
+  border: none;
+  cursor: pointer;
+  padding: 6px 14px;
+  font-size: 26px;
+  font-family: Helvetica;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  width: 70%;
+  color: rgb(238, 238, 238);
+}
+
+.goback:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.link-sin-estilos {
+  text-decoration: none;
+  color: inherit; /* Hereda el color del texto del elemento padre */
+  cursor: pointer; /* Cambia el cursor a una mano cuando pasa sobre el enlace */
+}
+
+/* Estilos para el toast */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast--info {
+  background-color: #fff;
+  color: #050505;
+  border-radius: 4px;
+  margin-top:2rem ;
+  margin-right:4.25rem;
+}
+
+.Toastify__toast-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Toastify__toast-body p {
+  margin-bottom: 10px;
+}
+
+.Toastify__toast-body button {
+  background-color: #574eb8;
+  color: #fdfdfd;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Toastify__toast-body button:hover {
+  background-color: #423b8c;
+  color: #fff;
+}

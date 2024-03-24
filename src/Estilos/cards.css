@@ -1,0 +1,93 @@
+body {
+  background-color: #f6f6f6;
+}
+
+.cards-container {
+  display: grid;
+  padding: 3px 15px 10px 15px;
+  gap: 1.25rem;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+}
+
+.card-barberia {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-barberia__header__image {
+  transition: filter 0.3s ease;
+}
+
+.card-barberia__header__image:hover{
+  filter: grayscale(15%); 
+}
+
+.card-barberia__header {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+/* TODO: hover en la imagen, como una sombra inset */
+.card-barberia__header:hover {
+
+}
+
+.card-barberia__footer {
+  padding: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.card-barberia__footer__heading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.card-barberia__footer__heading__location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-barberia__footer__heading__location__city {
+  color: #636363;
+}
+
+.estrella {
+  color: rgb(250, 196, 0);
+}
+
+.description-text {
+  /* Contenedor de bloque flexible en el contexto de textos */
+  display: -webkit-box;
+  /* Las lineas se apilaran verticalmente */
+  -webkit-box-orient: vertical;
+  /* Establece el número máximo de líneas que se mostrarán */
+  -webkit-line-clamp: 3; /* Puedes ajustar este valor según tus necesidades */
+  /* Añade puntos suspensivos al final del texto que se corta */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+}
+
+.description-title {
+  /* Contenedor de bloque flexible en el contexto de textos */
+  display: -webkit-box;
+  /* Las lineas se apilaran verticalmente */
+  -webkit-box-orient: vertical;
+  /* Establece el número máximo de líneas que se mostrarán */
+  -webkit-line-clamp: 2; /* Puedes ajustar este valor según tus necesidades */
+  /* Añade puntos suspensivos al final del texto que se corta */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+}
+
+.card-barberia__footer__heading__nombre {
+  margin: 0;
+}

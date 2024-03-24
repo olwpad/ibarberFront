@@ -1,0 +1,46 @@
+.containerCita{
+  display: flex;
+  height: 80vh;
+}
+
+
+/* Estilos para el contenedor de texto */
+.text-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: .3125rem  ;
+}
+
+.card-img-top:hover{
+  filter: grayscale(20%);
+}
+.fuente{
+font-weight: bold; 
+ color: #655CC9;
+
+}
+
+/* Estilos para los horarios */
+.horarios {
+  font-weight: bold;
+}
+
+/* Estilos para la etiqueta y la entrada de fecha */
+.fecha-label, .fecha-input {
+  margin-bottom: 12px;
+}
+.agendar-btn{
+  background-color: #655CC9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.agendar-btn:hover {
+  background-color: #000003;
+}
